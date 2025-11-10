@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(33, 33, 33);
+  color: white;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+.navbar-cardapio {
+  font-size: 25px;
+}
+
+.navbar-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+.carrinho-info {
+  width: 600px;
+  height: auto;
+  background-color: #444;
+  color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 140px;
+}
+
+.carrinho-info h5 {
+  margin-bottom: 15px;
+  margin-right: 100px;
+}
+
+.selected {
+  background-color: #ffc107 ;
+  color: black ;
+}
+
+.container-fluid {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.bi-cash-coin {
+  font-size: 24px;
+}
+
+.dropdown-menu {
+  background-color: #444;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #555;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+}
